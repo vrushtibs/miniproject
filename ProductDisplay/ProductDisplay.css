@@ -1,0 +1,136 @@
+
+
+.productdisplay{
+    display: flex;
+    margin: 0px 100px;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img{
+    height: 163px;
+}
+
+.productdisplay-main-img{
+    width: 600px;
+    height: 700px;
+}
+
+.checked{
+    color: orange;
+}
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #bb9191;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #7bd664;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #cfd0d2;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #728fcd;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot5 {
+    height: 25px;
+    width: 25px;
+    background-color: #59595a;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.productdisplay-right-price-new{
+    color:green;
+}
+
+.productdisplay-right-size h1{
+    margin-top: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #59595a;
+}
+
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-sizes div{
+    cursor: pointer;
+}
+
+.productdisplay-right button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    background: rgb(25, 25, 113);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

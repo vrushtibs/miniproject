@@ -1,0 +1,40 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.new-collections img{
+    width: 200px;
+    height: 200px;
+}
+
+.new-collections h1{
+    color: rgb(102, 100, 105);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.new-collections hr{
+    width: 800px;
+    height: 3px;
+    border-radius: 10px;
+    background: rgb(127, 126, 128);
+}
+
+.new-collections-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.collections{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 20px;
+}
